@@ -1,3 +1,5 @@
+Jawaban No 2
+
 INSERT INTO mahasiswa(nim,nama,tgl_lhr) 
 VALUES(20210801205,"Bagus Abyyu Azhar","01/01/17"),
 	  (20210801208,"Ageng","05/11/05"),
