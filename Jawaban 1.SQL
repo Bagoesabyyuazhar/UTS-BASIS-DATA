@@ -1,3 +1,5 @@
+Jawaban No 1
+
 CREATE TABLE mahasiswa(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	nim BIGINT,
