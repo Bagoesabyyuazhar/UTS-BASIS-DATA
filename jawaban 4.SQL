@@ -1,11 +1,12 @@
--- JAWABAN NOMOR_4
+Jawaban No 4
 
-SELECT 
-	m.id,
-	m.nim,
-	m.nama as "Nama Siswa",
-	m.tgl_lhr as "Tanggal Lahir",
-	mtkl.matkul as "Mata Kuliah" 
-FROM mahasiswa as m
-LEFT JOIN mata_kuliah as mtkl ON m.id = mtkl.id
-;
+SELECT
+	Mahasiswa.id_mahasiswa,
+	Mahasiswa.name_mahasiswa AS mhs,
+	MataKuliah.nama_MataKuliah
+FROM
+	Mahasiswa
+	INNER JOIN 
+	MataKuliah
+WHERE 
+	Mahasiswa.id_mahasiswa = MataKuliah.id_matkul
